@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  background-color: #f6f8fa;
+  color: #24292e;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #0366d6;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #586069;
+  margin-bottom: 30px;
+}
+
+#repositories-list {
+  list-style: none;
+}
+
+.repo-item {
+  background-color: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.repo-item:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.repo-name {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.repo-name a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-name a:hover {
+  text-decoration: underline;
+}
+
+.repo-description {
+  color: #586069;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+}
+
+.repo-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: #6a737d;
+  gap: 20px;
+}
+
+.repo-stars {
+  background-color: #f1f8ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.repo-date {
+  color: #6a737d;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.1em;
+  color: #586069;
+}
+
+.error {
+  background-color: #ffeef0;
+  border: 1px solid #d73a49;
+  color: #d73a49;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
